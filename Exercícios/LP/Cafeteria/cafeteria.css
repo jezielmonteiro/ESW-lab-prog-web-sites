@@ -1,0 +1,154 @@
+body {
+    font-family: "SoDo Sans SemiBold";
+    margin: 0px;
+    color: #690205;
+    background-color:#ffcc80 ;
+}
+
+body h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 2em;
+    font-family: 'Noto Sans JP', sans-serif;
+    color:#690205
+}
+
+body h2 {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+body p { 
+    text-align: center;
+    color: #a05a40;
+}
+
+header {
+    border-bottom: 1px solid #690205;
+    padding-bottom: 20px;
+    margin: 40px;
+    margin-bottom: 40px;
+
+}
+
+header div {
+    text-align: center;
+}
+
+#menu {
+    background-color: #ffcc80;
+    margin: 80px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #690205;
+    border-left: 1px solid #690205;
+    border-right: 1px solid #690205;
+    border-radius: 5px;
+}
+
+#menu h2 {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+    color: #ffcc80;
+    background-color: #690205;
+    border-bottom: 1px solid #690205;
+    border-top: 1px solid #690205;
+    border-left: 1px solid #690205;
+    border-right: 1px solid #690205;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;  
+}
+
+#menu div {
+    color: #a05a40;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#menu br {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#menu2 {
+    background-color: #ffcc80;
+    margin: 80px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #690205;
+    border-left: 1px solid #690205;
+    border-right: 1px solid #690205;
+    border-radius: 5px;
+}
+
+#menu2 h2 {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+    color: #ffcc80;
+    background-color: #690205;
+    border-bottom: 1px solid #690205;
+    border-top: 1px solid #690205;
+    border-left: 1px solid #690205;
+    border-right: 1px solid #690205;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;  
+}
+
+#menu2 div {
+    color: #a05a40;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#menu2 br {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#fotos img {
+    max-width: 18%; 
+    margin: 20px 0; 
+    padding-left: 185px;
+    padding-right: 185px;
+}
+
+footer {
+    text-align: center;
+    border-bottom: 1px solid #690205;
+    border-top: 1px solid #690205;
+    border-left: 1px solid #690205;
+    border-right: 1px solid #690205;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    background-color: #690205;
+    color:#ffcc80
+}
+footer p {
+    font-style: italic;
+    margin: 0px;
+    margin-top: 40px;
+    color: #ffcc80;
+    background-color: #690205;
+
+}

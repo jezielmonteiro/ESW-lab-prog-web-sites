@@ -1,0 +1,64 @@
+body {
+    font-family: 'Questrial';
+    margin: 40px;
+    color: #b21e2a;
+    background-color:#000000 ;
+}
+
+header {
+    border-bottom: 1px solid #b21e2a;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    font-family: 'Questrial';
+    color:#b21e2a
+}
+
+header p { 
+    color: #b21e2a
+}
+
+section {
+    background-color: #000000;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #b21e2a;
+    border-left: 1px solid #b21e2a;
+    border-right: 1px solid #b21e2a;
+    border-radius: 5px;
+}
+
+section h2 {
+    border-bottom: 1px solid #b21e2a;
+    border-top: 1px solid #b21e2a;
+    border-left: 1px solid #b21e2a;
+    border-right: 1px solid #b21e2a;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #b21e2a;
+}
+
+section u1 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+section br {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+footer {
+    margin-top: 40px;
+    font-style: italic;
+    color:#b21e2a
+}
