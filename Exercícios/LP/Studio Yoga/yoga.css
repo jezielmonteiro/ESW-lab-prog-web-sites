@@ -1,0 +1,231 @@
+body {
+    font-family: 'Yoga', sans-serif;
+    margin: 0px;
+    color: #ab79ce;
+    background-color:#ab79ce ;
+}
+
+body h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 2em;
+    font-family: 'Yoga', sans-serif;
+    color:#ab79ce
+}
+
+body h2 {
+    font-family: 'Yoga', sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+body header {
+    border-bottom: 1px solid #dbb5f0;
+    padding-bottom: 0px;
+    margin-bottom: 40px;
+    margin: 0px;
+}
+
+header div {
+    color: #ffffff;
+    text-align: center;
+    background-color: #dbb5f0;
+}
+
+#aulas {
+    background-color: #ab79ce;
+    margin: 80px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dbb5f0;
+    border-left: 1px solid #dbb5f0;
+    border-right: 1px solid #dbb5f0;
+    border-radius: 5px;
+}
+
+#aulas h2 {
+    font-family: 'Yoga', sans-serif;
+    text-align: center;
+    color: #ab79ce;
+    background-color: #dbb5f0;
+    border-bottom: 1px solid #dbb5f0;
+    border-top: 1px solid #dbb5f0;
+    border-left: 1px solid #dbb5f0;
+    border-right: 1px solid #dbb5f0;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;  
+}
+
+#aulas div {
+    color: #dbb5f0;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#aulas strong {
+    color: #ffffff;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#alunos {
+    color: #dbb5f0;
+    background-color: #ab79ce;
+    margin: 80px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dbb5f0;
+    border-left: 1px solid #dbb5f0;
+    border-right: 1px solid #dbb5f0;
+    border-radius: 5px;
+}
+
+#alunos h2 {
+    font-family: 'Yoga', sans-serif;
+    text-align: center;
+    color: #ab79ce;
+    background-color: #dbb5f0;
+    border-bottom: 1px solid #dbb5f0;
+    border-top: 1px solid #dbb5f0;
+    border-left: 1px solid #dbb5f0;
+    border-right: 1px solid #dbb5f0;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;  
+}
+
+#alunos div {
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#alunos br {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#alunos strong {
+    color: #ffffff;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#inscrições {
+    color: #dbb5f0;
+    background-color: #ab79ce;
+    margin: 80px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+#inscrições div {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#inscrições strong {
+    color: #ffffff;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#inscrições button {
+    font-family: 'Yoga', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    background-color: #dbb5f0;
+    border-bottom: 1px solid #dbb5f0;
+    border-top: 1px solid #dbb5f0;
+    border-left: 1px solid #dbb5f0;
+    border-right: 1px solid #dbb5f0;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#missão {
+    color: #ffffff;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    
+}
+
+.with-padding {
+    padding: 20px; 
+}
+
+.aulas {
+    display: flex; 
+    align-items: center; 
+    gap: 20px; 
+}
+
+.aulas img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10%; 
+    margin-left: 400px;
+}
+
+.alunos {
+    display: flex; 
+    align-items: center; 
+    gap: 20px; 
+}
+
+.alunos img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; 
+    margin-left: 330px;
+}
+
+footer {
+    text-align: center;
+    border-bottom: 1px solid #ab79ce;
+    border-top: 1px solid #ab79ce;
+    border-left: 1px solid #ab79ce;
+    border-right: 1px solid #ab79ce;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    color: #ab79ce;
+    background-color: #dbb5f0;
+}
+    
+footer p {
+    font-style: italic;
+    margin: 0px;
+    margin-top: 40px;
+    color: #ffffff;
+    background-color: #dbb5f0;
+
+}
