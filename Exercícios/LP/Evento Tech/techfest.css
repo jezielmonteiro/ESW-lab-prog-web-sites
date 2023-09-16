@@ -1,0 +1,207 @@
+body {
+    font-family: 'Azonix', sans-serif;
+    margin: 0px;
+    color: #000000;
+    background-color:#000000 ;
+}
+
+body h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 2em;
+    font-family: 'Azonix', sans-serif;
+    color:#000000
+}
+
+body h2 {
+    font-family: 'Azonix', sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+body header {
+    border-bottom: 1px solid #165fbf;
+    padding-bottom: 0px;
+    margin-bottom: 40px;
+    margin: 0px;
+}
+
+header div {
+    color: #ffffff;
+    text-align: center;
+    background-color: #165fbf;
+}
+
+#palestrantes {
+    background-color: #000000;
+    margin: 80px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #165fbf;
+    border-left: 1px solid #165fbf;
+    border-right: 1px solid #165fbf;
+    border-radius: 5px;
+}
+
+#palestrantes h2 {
+    font-family: 'Azonix', sans-serif;
+    text-align: center;
+    color: #000000;
+    background-color: #165fbf;
+    border-bottom: 1px solid #165fbf;
+    border-top: 1px solid #165fbf;
+    border-left: 1px solid #165fbf;
+    border-right: 1px solid #165fbf;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;  
+}
+
+#palestrantes div {
+    color: #165fbf;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#palestrantes strong {
+    color: #ffffff;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#programação {
+    color: #165fbf;
+    background-color: #000000;
+    margin: 80px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #165fbf;
+    border-left: 1px solid #165fbf;
+    border-right: 1px solid #165fbf;
+    border-radius: 5px;
+}
+
+#programação h2 {
+    font-family: 'Azonix', sans-serif;
+    text-align: center;
+    color: #000000;
+    background-color: #165fbf;
+    border-bottom: 1px solid #165fbf;
+    border-top: 1px solid #165fbf;
+    border-left: 1px solid #165fbf;
+    border-right: 1px solid #165fbf;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;  
+}
+
+#programação div {
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#programação br {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#programação strong {
+    color: #ffffff;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#inscrições {
+    color: #165fbf;
+    background-color: #000000;
+    margin: 80px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+#inscrições div {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#inscrições strong {
+    color: #ffffff;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#inscrições button {
+    font-family: 'Azonix', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    background-color: #165fbf;
+    border-bottom: 1px solid #165fbf;
+    border-top: 1px solid #165fbf;
+    border-left: 1px solid #165fbf;
+    border-right: 1px solid #165fbf;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.with-padding {
+    padding: 20px; 
+}
+
+.palestrantes {
+    display: flex; 
+    align-items: center; 
+    gap: 20px; 
+}
+
+.palestrantes img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; 
+    margin-left: 305px;
+}
+
+footer {
+    text-align: center;
+    border-bottom: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    color: #000000;
+    background-color: #165fbf;
+}
+    
+footer p {
+    font-style: italic;
+    margin: 0px;
+    margin-top: 40px;
+    color: #ffffff;
+    background-color: #165fbf;
+
+}
