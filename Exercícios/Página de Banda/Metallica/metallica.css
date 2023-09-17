@@ -1,0 +1,184 @@
+body {
+    font-family: "SoDo Sans SemiBold";
+    margin: 0px;
+    color: #ffffff;
+    background-color:#101010;
+}
+
+body h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 2em;
+    font-family: 'Noto Sans JP', sans-serif;
+    color:#ffffff
+}
+
+body h2 {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+header {
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 20px;
+    margin: 40px;
+    margin-bottom: 40px;
+
+}
+
+header div {
+    text-align: center;
+}
+
+#biografia {
+    background-color: #101010;
+    margin: 80px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+#biografia h2 {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;  
+}
+
+#biografia div {
+    color: #ffffff;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#biografia br {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#discografia {
+    background-color: #101010;
+    margin: 80px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    
+}
+
+#discografia h2 {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    background-color: #101010;
+    border-bottom: 1px solid #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;  
+}
+
+#discografia div {
+    color: #ffffff;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#discografia br {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#turnes {
+    background-color: #101010;
+    margin: 80px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+#turnes h2 {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;  
+}
+
+#turnes div {
+    color: #ffffff;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#turnes br {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.album img {
+    width: 300px;
+    margin-right: 10px; 
+}
+
+.contato {
+    padding: 20px;
+    background-color: #101010;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.contato h2 {
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 15px;
+    margin: 70px;
+    margin-bottom: 40px; 
+}
+
+.contato form {
+    display: flex; 
+    flex-direction: column; 
+}
+
+.contato label, .contato input, .contato textarea {
+    margin-bottom: 10px; 
+}
+
+
+footer {
+    background-color: #ffffff; 
+    color: #ffffff; 
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #101010; 
+    margin: 0 5px; 
+    text-decoration: none; 
+}
+
+footer a:hover {
+    text-decoration: underline; /* Sublinhando os links ao passar o mouse */
+}
