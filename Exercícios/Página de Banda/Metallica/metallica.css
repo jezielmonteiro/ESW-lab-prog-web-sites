@@ -1,5 +1,5 @@
 body {
-    font-family: "SoDo Sans SemiBold";
+    font-family: 'Metal Mania', cursive;   
     margin: 0px;
     color: #ffffff;
     background-color:#101010;
@@ -9,12 +9,12 @@ body h1 {
     text-align: center;
     margin: 0;
     font-size: 2em;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Metal Mania', cursive;    
     color:#ffffff
 }
 
 body h2 {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Metal Mania', cursive;
     text-align: center;
     padding-bottom: 20px;
     margin-bottom: 40px;
@@ -40,7 +40,7 @@ header div {
 }
 
 #biografia h2 {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Metal Mania', cursive;    
     text-align: center;
     color: #ffffff;
     border-bottom: 1px solid #ffffff;
@@ -74,7 +74,7 @@ header div {
 }
 
 #discografia h2 {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Metal Mania', cursive;  
     text-align: center;
     color: #ffffff;
     background-color: #101010;
@@ -108,7 +108,7 @@ header div {
 }
 
 #turnes h2 {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Metal Mania', cursive;    
     text-align: center;
     color: #ffffff;
     border-bottom: 1px solid #ffffff;
