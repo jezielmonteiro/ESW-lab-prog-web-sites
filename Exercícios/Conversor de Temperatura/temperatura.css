@@ -1,0 +1,42 @@
+body {
+    font-family: "SoDo Sans SemiBold";
+    color: #000000; 
+    background-color: #007BFF; 
+    text-align: center; 
+    padding-top: 50px; 
+}
+
+body h1 {
+    font-family: 'Noto Sans JP', sans-serif;  
+    text-align: center; 
+}
+
+.container {
+    background-color: #fff; 
+    padding: 20px; 
+    border-radius: 5px; 
+    display: inline-block; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); 
+}
+
+input {
+    padding: 10px; 
+    margin: 10px 0; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    width: 200px; 
+}
+
+button {
+    font-family: "SoDo Sans SemiBold";
+    padding: 10px 20px; 
+    background-color: #007BFF;
+    color: #fff; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+button:hover {
+    background-color: #0056b3; 
+}
