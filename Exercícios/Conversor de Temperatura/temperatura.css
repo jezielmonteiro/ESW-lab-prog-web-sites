@@ -11,10 +11,6 @@ body h1 {
     text-align: center; 
 }
 
-header img {
-    align-items: center;
-    justify-content: center; 
-}
 .container {
     background-color: #fff; 
     padding: 20px; 
