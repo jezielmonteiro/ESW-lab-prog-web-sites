@@ -11,12 +11,22 @@ body h1 {
     text-align: center; 
 }
 
+header img {
+    align-items: center;
+    justify-content: center; 
+}
 .container {
     background-color: #fff; 
     padding: 20px; 
     border-radius: 5px; 
     display: inline-block; 
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); 
+}
+
+.with-padding {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0;
 }
 
 input {
