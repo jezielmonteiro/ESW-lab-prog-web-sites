@@ -1,0 +1,25 @@
+body {
+    font-family: "SoDo Sans SemiBold";
+    color: #000000; 
+    background-color: #fa8d3a; 
+    text-align: center; 
+    padding-top: 50px; 
+}
+
+body h1 {
+    font-family: 'Noto Sans JP', sans-serif;  
+    text-align: center; 
+}
+
+.container {
+    background-color: #fff; 
+    padding: 20px; 
+    border-radius: 5px; 
+    display: inline-block; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); 
+}
+
+.with-padding {
+    padding-left: 15px;
+    padding-right: 15px;
+}
