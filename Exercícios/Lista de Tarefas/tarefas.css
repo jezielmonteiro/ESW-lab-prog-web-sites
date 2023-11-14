@@ -1,0 +1,67 @@
+body {
+    font-family: "SoDo Sans SemiBold";
+    color: #000000; 
+    background-color: #ffffff; 
+    background-image: url(../img/tarefas2.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center; 
+    padding-top: 50px; 
+}
+
+body h1 {
+    font-family: 'Noto Sans JP', sans-serif;  
+    text-align: center; 
+}
+
+.container {
+    background-color: #ffffff; 
+    padding: 20px; 
+    border-radius: 5px; 
+    display: inline-block; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); 
+}
+
+.with-padding {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#todo-container {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+#task-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#task-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.delete-btn {
+    background-color: #e9e8d3;
+    color: #000000;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
