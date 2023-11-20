@@ -1,7 +1,7 @@
 body {
     font-family: "SoDo Sans SemiBold";
     color: #000000; 
-    background-color: #ffffff; 
+    background-color: #e9e8d3; 
     background-image: url(../img/tarefas2.jpg);
     background-size: cover;
     background-position: center center;
@@ -16,7 +16,7 @@ body h1 {
 }
 
 .container {
-    background-color: #ffffff; 
+    background-color: #fefdf8; 
     padding: 20px; 
     border-radius: 5px; 
     display: inline-block; 
@@ -30,7 +30,7 @@ body h1 {
 
 #todo-container {
     width: 300px;
-    background-color: #fff;
+    background-color: #fefdf8;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
