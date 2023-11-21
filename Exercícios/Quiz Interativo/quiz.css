@@ -1,0 +1,48 @@
+body {
+    font-family: "SoDo Sans SemiBold";
+    color: #3d3a33; 
+    background-color: #ffffff; 
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center; 
+    padding-top: 50px; 
+}
+
+body h1 {
+    font-family: 'Noto Sans JP', sans-serif;  
+    text-align: center; 
+}
+
+.container {
+    background-color: #ffffff; 
+    padding: 20px; 
+    border-radius: 5px; 
+    display: inline-block; 
+    box-shadow: 0 0 15px #e3e3e3; 
+}
+
+.with-padding {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}

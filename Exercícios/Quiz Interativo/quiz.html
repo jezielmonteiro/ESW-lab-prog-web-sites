@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Conhecimentos Gerais</title>
+    <link rel="stylesheet" href="css codes/quiz.css"> 
+    <link rel="icon" href="img/quiz.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap" rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="with-padding">
+            <br>
+            <img src="img/quiz.png" width="150px" height="150px">
+        </div>
+    </header>
+    <br>
+    <div class="container">
+        <h1>Quiz de Conhecimentos Gerais</h1>
+        <div id="question1" class="question">
+            <p>Pergunta 1: Qual é a capital do Brasil?</p>
+            <div class="options">
+                <button onclick="checkAnswer(1, 'Brasília', 'Brasília')">Brasília</button>
+                <button onclick="checkAnswer(1, 'Brasília', 'Rio de Janeiro')">Rio de Janeiro</button>
+                <button onclick="checkAnswer(1, 'São Paulo', 'Brasília')">São Paulo</button>
+                <button onclick="checkAnswer(1, 'Buenos Aires', 'Brasília')">Buenos Aires</button>
+            </div>
+        </div>
+        <div id="question2" class="question">
+            <p>Pergunta 2: Qual é o maior planeta do nosso sistema solar?</p>
+            <div class="options">
+                <button onclick="checkAnswer(2, 'Júpiter', 'Júpiter')">Júpiter</button>
+                <button onclick="checkAnswer(2, 'Júpiter', 'Marte')">Marte</button>
+                <button onclick="checkAnswer(2, 'Terra', 'Júpiter')">Terra</button>
+                <button onclick="checkAnswer(2, 'Vênus', 'Júpiter')">Vênus</button>
+            </div>
+        </div>
+        <div id="question3" class="question">
+            <p>Pergunta 3: Quem escreveu a peça "Romeu e Julieta"?</p>
+            <div class="options">
+                <button onclick="checkAnswer(3, 'William Shakespeare', 'William Shakespeare')">William Shakespeare</button>
+                <button onclick="checkAnswer(3, 'William Shakespeare', 'Charles Dickens')">Charles Dickens</button>
+                <button onclick="checkAnswer(3, 'Jane Austen', 'William Shakespeare')">Jane Austen</button>
+                <button onclick="checkAnswer(3, 'Homer', 'William Shakespeare')">Homer</button>
+            </div>
+        </div>
+        <div id="question4" class="question">
+            <p>Pergunta 4: Qual é o maior oceano do mundo?</p>
+            <div class="options">
+                <button onclick="checkAnswer(4, 'Oceano Pacífico', 'Oceano Pacífico')">Oceano Pacífico</button>
+                <button onclick="checkAnswer(4, 'Oceano Pacífico', 'Oceano Atlântico')">Oceano Atlântico</button>
+                <button onclick="checkAnswer(4, 'Oceano Índico', 'Oceano Pacífico')">Oceano Índico</button>
+                <button onclick="checkAnswer(4, 'Oceano Antártico', 'Oceano Pacífico')">Oceano Antártico</button>
+            </div>
+        </div>
+        <div id="question5" class="question">
+                <p>Pergunta 5: Qual é a capital da Austrália?</p>
+                <div class="options">
+                    <button onclick="checkAnswer(5, 'Canberra', 'Canberra')">Canberra</button>
+                    <button onclick="checkAnswer(5, 'Canberra', 'Melbourne')">Melbourne</button>
+                    <button onclick="checkAnswer(5, 'Sydney', 'Canberra')">Sydney</button>
+                    <button onclick="checkAnswer(5, 'Perth', 'Canberra')">Perth</button>
+                </div>
+        </div>
+        <br>
+        <button onclick="showResult()">Enviar</button>
+        <div id="result"></div>
+    </div>
+    <script src="js codes/quiz.js"></script> 
+</body>
+</html>
